@@ -1,0 +1,31 @@
+
+.center {
+    display:block;
+    margin-top: 30pt;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.Header {
+    margin-left: auto;
+    margin-right: auto 
+    font-size: 45px;
+    font-family: open sans;
+    text-align: center;
+}
+
+.bottomnavbar {
+    display: block;
+    color: white;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-decoration: none;
+    font-family: open sans;
+
+}
