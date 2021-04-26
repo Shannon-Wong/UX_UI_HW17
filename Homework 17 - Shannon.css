@@ -1,31 +1,93 @@
-
+body {
+  font-family: 'Opensans', sans-serif;
+}
 .center {
     display:block;
-    margin-top: 30pt;
+    margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
 
 .Header {
-    margin-left: auto;
-    margin-right: auto 
-    font-size: 45px;
-    font-family: open sans;
-    text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: medium;
+  text-align: center;
 }
 
 .bottomnavbar {
-    display: block;
     color: white;
+    text-align: center;
+    width: 100%;
     background-color: black;
     position: fixed;
     bottom: 0;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    text-decoration: none;
-    font-family: open sans;
-
 }
+
+#categoryGrid {
+  margin: 0px 5%;
+  display: grid;
+  grid-template-rows: 300px 300px 300px;
+  grid-template-columns: auto auto auto;
+  grid-template-areas:
+  "GridImage1 GridImage2 GridImage3"
+  "GridImage4 GridImage5 GridImage6"
+  "GridImage7 GridImage8 GridImage9"
+  ;
+}
+
+#GridImage1 {
+  grid-area: GridImage1;
+  background-image: url("GridImage1@2x.png");
+  max-width: 100%;
+  max-height: 100%;
+}
+#GridImage2 {
+  grid-area: GridImage2;
+  background-image: url("GridImage2@2x.png");
+}
+
+#GridImage3 {
+  grid-area: GridImage3;
+  background-image: url("GridImage3@2x.png");
+}
+
+#GridImage4 {
+  grid-area: GridImage4;
+  background-image: url("GridImage4@2x.png");
+}
+
+#GridImage5 {
+  grid-area: GridImage5;
+  background-image: url("GridImage5@2x.png");
+}
+#GridImage6 {
+  grid-area: GridImage6;
+  background-image: url("GridImage6@2x.png");
+}
+#GridImage7 {
+  grid-area: GridImage7;
+  background-image: url("GridImage7@2x.png");
+}
+#GridImage8 {
+  grid-area: GridImage8;
+  background-image: url("GridImage8@2x.png");
+}
+#GridImage9 {
+  grid-area: GridImage9;
+  background-image: url("GridImage9@2x.png");
+}
+
+.categoryGridArea {
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin: 5px;
+  border-color: gray;
+  display: grid;
+  align-content: end;
+}
+
