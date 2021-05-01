@@ -30,7 +30,7 @@ body {
 #categoryGrid {
   margin: 0px 5%;
   display: grid;
-  grid-template-rows: 300px 300px 300px;
+  grid-template-rows: auto auto auto;
   grid-template-columns: auto auto auto;
   grid-template-areas:
   "GridImage1 GridImage2 GridImage3"
